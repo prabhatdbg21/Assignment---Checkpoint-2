@@ -50,7 +50,6 @@ table {
 /* custom styles */
 .container{
 	max-width: 100%;
-	margin: 0 auto;
 	padding: 0 5%;
 }
 .flex{
@@ -89,6 +88,13 @@ p{
 	color: red;
 }
 
+.blue{
+	color: blue;
+}
+.green{
+	color: lightgreen;
+}
+
 /* header */
 .header-alignment{
 	color: white;
@@ -118,6 +124,8 @@ p{
 	display: flex;
 	align-items: center;
 	margin-bottom: 120px;
+	position: sticky;
+	top: 0;
 }
 .header-logo{
 	height: 64px;
@@ -146,7 +154,6 @@ p{
 #home-c{
 	color: #ea523e;
 	padding-top: 23.5px;
-	align-self: center;
 }
 .box{
 	height: 32px;
@@ -293,6 +300,9 @@ h5{
 	background-color: #ea513e;
 	text-align: center;
 	color: white;
+}
+.bold{
+	font-weight: 700;
 }
 
 /* footer */
